@@ -3,6 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    transition: 1s ease-in-out;
 }
 
 /* Black Version */
@@ -14,6 +15,7 @@ body {
     background-color: black;
     padding: 2rem;
     border-radius: 5%;
+    transition: 1s ease-in-out;
 }
 
 .quote {
@@ -22,12 +24,14 @@ body {
     font-size: 2rem;
     text-align: center;
     margin: 1.5rem 0;
+    transition: 1s ease-in-out;
 }
 
 .author {
     color: white;
     text-align: right;
-    font-size: 1.2rem
+    font-size: 1.2rem;
+    transition: 1s ease-in-out;
 }
 
 .buttons-and-icons {
@@ -87,6 +91,7 @@ body {
     background-color: white;
     padding: 2rem;
     border-radius: 5%;
+    transition: 1s ease-in-out;
 }
 
 .quote-white {
@@ -95,12 +100,14 @@ body {
     font-size: 2rem;
     text-align: center;
     margin: 1.5rem 0;
+    transition: 1s ease-in-out;
 }
 
 .author-white {
     color: black;
     text-align: right;
-    font-size: 1.2rem
+    font-size: 1.2rem;
+    transition: 1s ease-in-out;
 }
 
 .buttons-and-icons {
