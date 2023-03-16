@@ -11,7 +11,8 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 38vh;
+    height: 60vh;
+    width: 70vw;
     background-color: black;
     padding: 2rem;
     border-radius: 5%;
@@ -87,7 +88,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 38vh;
+    width: 38vw;
     background-color: white;
     padding: 2rem;
     border-radius: 5%;
@@ -155,4 +156,15 @@ body {
 
 .button:focus {
     box-shadow: rgba(255, 255, 255, .3) 2px 8px 4px -6px;
+}
+
+/* Responsive web design */
+
+@media (min-width: 1025px) {
+
+    .main-section,
+    .main-section-white {
+        height: 40vh;
+        width: 30vw;
+    }
 }
