@@ -88,7 +88,8 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 38vw;
+    height: 60vh;
+    width: 70vw;
     background-color: white;
     padding: 2rem;
     border-radius: 5%;
